@@ -26,7 +26,7 @@ process = os.getpid()
 print(process)
 
 # Print the current working directory (cwd):
-cwd = os.curdir()
+cwd = os.getcwd()
 print(cwd)
 
 # Print out your machine's login name
